@@ -1,0 +1,126 @@
+body{
+	background: lemonchiffon;
+}
+
+p{
+	font-family: Sitka Banner;
+}
+
+img{
+	border-radius: 5%;
+}
+
+ul.menu{
+	list-style-type: none;
+	margin: 0px 20px 0px 100px;
+	padding: 0;
+	overflow: hidden;
+	background-color: Peachpuff;
+		font-family: Algerian;
+		list-style: none;
+		display: grid;
+		grid-gap: 5px;
+		grid-template-columns: repeat(6,1fr);	
+}
+
+ul.menu  a{
+	display: block;
+	color: darkgreen;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Bernard MT Condensed;
+}
+
+ul.menu  a:hover:not(.active) {color: mediumseagreen;}
+
+.top {
+	margin:0px 0px 0px 0px;
+	background: lemonchiffon;
+	color: blue;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+	font-family: Franklin Gothic Medium;
+}
+
+
+.imlogo {
+	background: aquamarine;
+	color: lightsalmon;
+	text-align: left;
+}
+
+.personal background{
+	background: pink;
+	color: pink;
+	text-align: center;
+	padding-left: 30px;
+	margin: 0px 0px 0px 100px;
+}
+
+.educ{
+	background: khaki;
+	color: crimson;
+	text-align: center;
+	margin: 0px 00px 0px 0px;
+	padding-left: 30px;
+	font-family: High Tower Text;
+}
+
+.skills{
+	background: lemonchiffon;
+	color: darkgreen;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding-left: 30px;
+	font-family: Impact;
+}
+
+.work{
+	background: khaki;
+	color: orangered;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding-left: 30px;
+}
+
+.cr{
+	background: lemonchiffon;
+	color: mediumvioletred;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding-left: 30px;
+	font-family: Perpetua;
+}
+
+.about{
+	background: lemonchiffon;
+	color: black;
+	text-align: center;
+	margin: 0px 20px 0px 0px;
+	padding-left: 30px;
+}
+
+.cent{
+	margin:0px 20px 0px 100px;
+	background: teal;
+	color: white;
+	text-align: center;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.aw{
+	margin:0px 20px 0px 0px;
+	background: teal;
+	color: white;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+}
+}
